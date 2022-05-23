@@ -33,7 +33,7 @@ const Template = () => {
                     <h2 className="text-xl font-noto-sans pb-2">報紙新聞</h2>
                         <div className="mx-auto grid md:grid-cols-3 gap-8">
                             <div className="relative">
-                                <Link to="/DCT-project-app/weed" target="_blank">
+                                <Link to="/weed" target="_blank">
                                 <img src={weed} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                                 <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">大麻</p>
                                 </Link>
