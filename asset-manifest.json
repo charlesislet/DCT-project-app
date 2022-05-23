@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DCT-project-app/static/css/main.4d50161e.css",
-    "main.js": "/DCT-project-app/static/js/main.cc4c26fa.js",
+    "main.js": "/DCT-project-app/static/js/main.500182b0.js",
     "static/media/exhibitionvid.mp4": "/DCT-project-app/static/media/exhibitionvid.460cf531dad905ca627c.mp4",
     "static/media/A.png": "/DCT-project-app/static/media/A.030810c51465ff297eb4.png",
     "static/media/F.png": "/DCT-project-app/static/media/F.de37eb1c2da83c3be28f.png",
@@ -24,10 +24,10 @@
     "static/media/J.png": "/DCT-project-app/static/media/J.2ddc2c39405f36d1a38c.png",
     "index.html": "/DCT-project-app/index.html",
     "main.4d50161e.css.map": "/DCT-project-app/static/css/main.4d50161e.css.map",
-    "main.cc4c26fa.js.map": "/DCT-project-app/static/js/main.cc4c26fa.js.map"
+    "main.500182b0.js.map": "/DCT-project-app/static/js/main.500182b0.js.map"
   },
   "entrypoints": [
     "static/css/main.4d50161e.css",
-    "static/js/main.cc4c26fa.js"
+    "static/js/main.500182b0.js"
   ]
 }
