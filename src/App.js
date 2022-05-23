@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<Home/>} />
+          <Route path='/DCT-project-app' element={<Home/>} />
           <Route path='weed' element={<Weed/>} />
           <Route path='egg' element={<Egg/>} />
           <Route path='muscle' element={<Muscle/>} />
