@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/DCT-project-app/static/css/main.4d50161e.css",
+    "main.js": "/DCT-project-app/static/js/main.f6d968e2.js",
+    "static/media/exhibitionvid.mp4": "/DCT-project-app/static/media/exhibitionvid.460cf531dad905ca627c.mp4",
+    "static/media/A.png": "/DCT-project-app/static/media/A.030810c51465ff297eb4.png",
+    "static/media/F.png": "/DCT-project-app/static/media/F.de37eb1c2da83c3be28f.png",
+    "static/media/D.png": "/DCT-project-app/static/media/D.71c8732b3e68288c3858.png",
+    "static/media/C.png": "/DCT-project-app/static/media/C.85042dab1cb05aba5e04.png",
+    "static/media/M.png": "/DCT-project-app/static/media/M.aba2913cc8246d122f69.png",
+    "static/media/B.png": "/DCT-project-app/static/media/B.73999bd37cf1fe5c3477.png",
+    "static/media/P.png": "/DCT-project-app/static/media/P.14b567e380322a9d8244.png",
+    "static/media/E.png": "/DCT-project-app/static/media/E.1e4b3e1ea5992d2ebd56.png",
+    "static/media/N.png": "/DCT-project-app/static/media/N.2d22647a3e3668a25bc0.png",
+    "static/media/R.png": "/DCT-project-app/static/media/R.4c827d10fd4d5e81a1d2.png",
+    "static/media/Q.png": "/DCT-project-app/static/media/Q.155848ef6bc202ffe0da.png",
+    "static/media/K.png": "/DCT-project-app/static/media/K.e96e2058fa02e3312f72.png",
+    "static/media/H.png": "/DCT-project-app/static/media/H.e8c1a8372e6e1cf56fd4.png",
+    "static/media/O.png": "/DCT-project-app/static/media/O.2e453c1d8f2e526b2f01.png",
+    "static/media/I.png": "/DCT-project-app/static/media/I.0153f07b4feb9a77be58.png",
+    "static/media/logo.png": "/DCT-project-app/static/media/logo.08c1efab52284ff97934.png",
+    "static/media/L.png": "/DCT-project-app/static/media/L.6d0bc80804a1da01fc47.png",
+    "static/media/G.png": "/DCT-project-app/static/media/G.d3fe8b96d064cfd2547f.png",
+    "static/media/J.png": "/DCT-project-app/static/media/J.2ddc2c39405f36d1a38c.png",
+    "index.html": "/DCT-project-app/index.html",
+    "main.4d50161e.css.map": "/DCT-project-app/static/css/main.4d50161e.css.map",
+    "main.f6d968e2.js.map": "/DCT-project-app/static/js/main.f6d968e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d50161e.css",
+    "static/js/main.f6d968e2.js"
+  ]
+}
