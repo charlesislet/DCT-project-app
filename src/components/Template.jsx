@@ -45,7 +45,7 @@ const Template = () => {
                                 </Link>
                             </div>
                             <div className="relative">
-                                <Link to="/DCT-project-app/egg" target="_blank">
+                                <Link to="./egg" target="_blank">
                                 <img src={egg} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                                 <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">雞蛋</p>
                                 </Link>

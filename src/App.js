@@ -15,18 +15,18 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename="/DCT-project-app">
         <Routes>
-          <Route exact path='/DCT-project-app' element={<Home/>} />
-          <Route exact path='/weed' element={<Weed/>} />
-          <Route exact path='/egg' element={<Egg/>} />
-          <Route exact path='/DCT-project-app/muscle' element={<Muscle/>} />
-          <Route exact path='/DCT-project-app/sleep' element={<Sleep/>} />
-          <Route exact path='/DCT-project-app/stock' element={<Stock/>} />
-          <Route exact path='/DCT-project-app/tea' element={<Tea/>} />
-          <Route exact path='/DCT-project-app/war' element={<War/>} />
-          <Route exact path='/DCT-project-app/musq' element={<Musq/>} />
-          <Route exact path='/DCT-project-app/festival' element={<Festival/>} />
+          <Route path='/' element={<Home/>} />
+          <Route path='/weed' element={<Weed/>} />
+          <Route path='/egg' element={<Egg/>} />
+          <Route path='/muscle' element={<Muscle/>} />
+          <Route path='/sleep' element={<Sleep/>} />
+          <Route path='/stock' element={<Stock/>} />
+          <Route path='/tea' element={<Tea/>} />
+          <Route path='/war' element={<War/>} />
+          <Route path='/musq' element={<Musq/>} />
+          <Route path='/festival' element={<Festival/>} />
         </Routes>
       </Router>
     </div>
