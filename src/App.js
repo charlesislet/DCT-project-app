@@ -18,15 +18,15 @@ function App() {
       <Router>
         <Routes>
           <Route path='/DCT-project-app' element={<Home/>} />
-          <Route path='weed' element={<Weed/>} />
-          <Route path='egg' element={<Egg/>} />
-          <Route path='muscle' element={<Muscle/>} />
-          <Route path='sleep' element={<Sleep/>} />
-          <Route path='stock' element={<Stock/>} />
-          <Route path='tea' element={<Tea/>} />
-          <Route path='war' element={<War/>} />
-          <Route path='musq' element={<Musq/>} />
-          <Route path='festival' element={<Festival/>} />
+          <Route path='/weed' element={<Weed/>} />
+          <Route path='/egg' element={<Egg/>} />
+          <Route path='/muscle' element={<Muscle/>} />
+          <Route path='/sleep' element={<Sleep/>} />
+          <Route path='/stock' element={<Stock/>} />
+          <Route path='/tea' element={<Tea/>} />
+          <Route path='/war' element={<War/>} />
+          <Route path='/musq' element={<Musq/>} />
+          <Route path='/festival' element={<Festival/>} />
         </Routes>
       </Router>
     </div>

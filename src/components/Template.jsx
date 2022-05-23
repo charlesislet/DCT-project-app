@@ -39,13 +39,13 @@ const Template = () => {
                                 </Link>
                             </div>
                             <div className="relative">
-                                <Link to="/stock" target="_blank">
+                                <Link to="./stock" target="_blank">
                                 <img src={stock} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                                 <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">股票</p>
                                 </Link>
                             </div>
                             <div className="relative">
-                                <Link to="/egg" target="_blank">
+                                <Link to="./egg" target="_blank">
                                 <img src={egg} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                                 <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">雞蛋</p>
                                 </Link>
@@ -56,19 +56,19 @@ const Template = () => {
                     <h2 className="text-xl font-noto-sans pb-2">網路新聞</h2>
                     <div className="mx-auto grid md:grid-cols-3 gap-8">
                         <div className="relative">
-                            <Link to="/tea" target="_blank">
+                            <Link to="./tea" target="_blank">
                             <img src={tea} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                             <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">茶葉</p>
                             </Link>                        
                         </div>
                         <div className="relative">
-                            <Link to="/muscle" target="_blank">
+                            <Link to="./muscle" target="_blank">
                             <img src={muscle} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                             <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">肌力</p>
                             </Link>
                         </div>
                         <div className="relative">
-                            <Link to="/sleep" target="_blank">
+                            <Link to="./sleep" target="_blank">
                             <img src={sleep} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                             <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">睡眠</p>
                             </Link>
@@ -79,19 +79,19 @@ const Template = () => {
                     <h2 className="text-xl font-noto-sans pb-2">電視新聞</h2>
                     <div className="mx-auto grid md:grid-cols-3 gap-8">
                         <div className="relative">
-                            <Link to="/war" target="_blank">
+                            <Link to="./war" target="_blank">
                             <img src={war} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                             <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">烏俄</p>
                             </Link>
                         </div>
                         <div className="relative">
-                            <Link to="/musq" target="_blank">
+                            <Link to="./musq" target="_blank">
                             <img src={musq} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                             <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">蚊子</p>
                             </Link>
                         </div>
                         <div className="relative">
-                            <Link to="/festival" target="_blank">
+                            <Link to="./festival" target="_blank">
                             <img src={festival} width={210} className="block z-0 opacity-100 hover:opacity-30 rounded-lg shadow-xl"></img>
                             <p className="bg-slate-50 absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">燈會</p>
                             </Link>
