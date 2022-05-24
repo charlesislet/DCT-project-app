@@ -9,7 +9,7 @@ import { FiArrowDown } from 'react-icons/fi';
 
 const Phase = () => {
     return(
-        <div className="container w-full py-16 px-28 bg-red-600 flex flex-col">
+        <div className="container w-full py-16 px-28 bg-red-600 flex flex-col" name="phase">
             <h1 className="text-white text-4xl font-noto-sans">製作規劃</h1>
             <div className="max-w-[1280px] mx-auto grid md:grid-cols-3 gap-8 mt-10">
                 <div className="w-80 shadow-xl flex flex-col p-4 my-4 rounded-lg bg-white hover:scale-105 duration-300">

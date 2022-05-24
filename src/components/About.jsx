@@ -1,7 +1,10 @@
 import React from "react";
 import logo from "../Image/logo.png";
 import Typed from "react-typed";
+import { Link } from 'react-scroll';
 import { FaCircle } from 'react-icons/fa';
+import { BsMouse } from 'react-icons/bs';
+
 
 
 const About = () => {
@@ -14,7 +17,7 @@ const About = () => {
             </div>
             <div className="font-noto-sans">
                 <Typed
-                    strings={['數位內容', '第五組', 'OpenCV']}
+                    strings={['NCCUDCT', '13屆畢業製作', 'MetaZ', '戌時新聞', 'OpenCV']}
                     typeSpeed={40}
                     backSpeed={50}
                     loop>
@@ -30,6 +33,13 @@ const About = () => {
                 <p className="font-noto-sans text-lg text-justify w-9/12">
                 在作品中，觀展者在展覽場上的移動會改變訊息的部分內容，藉由此互動來象徵人為的干預如何左右訊息的真假。
                 </p>
+                {/* <Link to="phase" spy={true} smooth={true} horizontal={true} offset={50} duration={500} ></Link> */}
+                <div className="pt-5 text-red-600 flex flex-row">
+                    <BsMouse size={25}/>
+                    <p className="font-noto-sans">左右滑動</p>
+                </div>
+                
+                
             </div>
             <div className=" pt-8 border-solid border-black border-t-2">
                 <div className="pl-6 border-slate-300 border-solid border-l-2">

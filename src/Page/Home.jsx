@@ -28,6 +28,12 @@ function Home() {
                 <Vid />
             </div>
           </HorizontalScroll>
+      {/* <Navbar/>
+      <About />
+      <Phase />
+      <Template />
+      <Vid /> */}
+
     </div>
   );
 }

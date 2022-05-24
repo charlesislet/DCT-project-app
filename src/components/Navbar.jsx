@@ -37,7 +37,7 @@ class Navbar extends React.Component {
                     <h1 className="font-noto-sans text-red-600 text-4xl">戌時新聞</h1>
                 </div>
                 <div className="py-5">
-                    天氣
+              
                 </div>
         </div>
         );
