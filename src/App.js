@@ -10,6 +10,7 @@ import Tea from "./Page/Tea";
 import War from "./Page/War";
 import Musq from "./Page/Musq";
 import Festival from "./Page/Festival";
+import Navbar from "./components/Navbar";
 
 function App() {
 

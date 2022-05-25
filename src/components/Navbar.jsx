@@ -39,7 +39,7 @@ class Navbar extends React.Component {
                 <div className="py-5">
               
                 </div>
-        </div>
+            </div>
         );
     }
 }

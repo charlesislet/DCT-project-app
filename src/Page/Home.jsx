@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import HorizontalScroll from 'react-scroll-horizontal'
-import './Home.css'
+// import './Home.css'
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Phase from "../components/Phase";
 import Template from "../components/Template";
 import Vid from "../components/Vid";
+
 
 function Home() {
 
@@ -13,7 +14,7 @@ function Home() {
 
   return (
     <div className="Home">
-        <Navbar/>
+        {/* <Navbar/>
         <HorizontalScroll>
             <div style={child}>
                 <About />
@@ -27,12 +28,14 @@ function Home() {
             <div style={child}>
                 <Vid />
             </div>
-          </HorizontalScroll>
-      {/* <Navbar/>
+          </HorizontalScroll> */}
+      <Navbar/>
       <About />
       <Phase />
+      
       <Template />
-      <Vid /> */}
+      <Vid />
+    
 
     </div>
   );

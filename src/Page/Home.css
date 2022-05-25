@@ -1,3 +1,11 @@
 .Home {
     height: 85vh;
   }
+
+
+/* @media only screen and (max-width: 1536px) {
+  .Home {
+      height: 100vh;
+    }
+  
+} */
