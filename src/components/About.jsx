@@ -1,24 +1,12 @@
-import React, { useRef } from "react";
-import useSmoothScroll from 'react-smooth-scroll-hook';
+import React from "react";
 import logo from "../Image/logo.png";
 import Typed from "react-typed";
 import { Link } from 'react-scroll';
 import { FaCircle } from 'react-icons/fa';
-import { BsMouse } from 'react-icons/bs';
 
 
 
 const About = () => {
-
-    // const ref = useRef(null);
-
-    const ref = useRef(document.body);
-
-    const { scrollTo } = useSmoothScroll({
-        ref,
-        speed: 100,
-        direction: 'x',
-    });
 
     return(
         <div name="about">
