@@ -6,7 +6,7 @@ import stock2 from "../Image/J.png";
 
 const Stock = () => {
     return(
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
             <ReactCompareImage leftImage={stock1} rightImage={stock2}/>
         </div>
     )

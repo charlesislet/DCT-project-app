@@ -6,7 +6,7 @@ import tea2 from "../Image/B.png";
 
 const Tea = () => {
     return(
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
             <ReactCompareImage leftImage={tea1} rightImage={tea2}/>
         </div>
     )

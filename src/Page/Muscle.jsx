@@ -6,7 +6,7 @@ import muscle2 from "../Image/D.png";
 
 const Muscle = () => {
     return(
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
             <ReactCompareImage leftImage={muscle1} rightImage={muscle2}/>
         </div>
     )

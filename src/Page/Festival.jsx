@@ -6,7 +6,7 @@ import festival2 from "../Image/R.png";
 
 const Festival = () => {
     return(
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
             <ReactCompareImage leftImage={festival1} rightImage={festival2}/>
         </div>
     )

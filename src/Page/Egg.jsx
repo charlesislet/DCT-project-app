@@ -6,7 +6,7 @@ import egg2 from "../Image/L.png";
 
 const Egg = () => {
     return(
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
             <ReactCompareImage leftImage={egg1} rightImage={egg2}/>
         </div>
     )

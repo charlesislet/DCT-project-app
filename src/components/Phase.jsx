@@ -9,8 +9,8 @@ import { FiArrowDown } from 'react-icons/fi';
 
 const Phase = () => {
     return(
-        <div className="container mx-auto w-full py-16 px-28 bg-red-600 flex flex-col" id="phase">
-            <h1 className="text-white text-4xl font-noto-sans">製作規劃</h1>
+        <div className="container mx-auto w-full py-16 px-28 bg-red-600 flex flex-col" name="phase">
+            <h1 className="text-white text-3xl sm:text-4xl font-noto-sans mx-auto text-center">製作規劃</h1>
             <div className="mx-auto grid md:grid-cols-3 gap-10 mt-10">
                 <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-white hover:scale-105 duration-300">
                     <FaNewspaper className="mx-auto mt-[-40px] text-black" size={50}/>
@@ -25,7 +25,7 @@ const Phase = () => {
                 </div>
                 <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-white hover:scale-105 duration-300">
                     <BsFileRichtextFill className="mx-auto mt-[-40px] text-black" size={50}/>
-                    <h2 className="font-noto-sans text-2xl text-center py-6 border-solid border-b-2 border-black">美術</h2>
+                    <h2 className="font-noto-sans text-3xl text-center py-6 border-solid border-b-2 border-black">美術</h2>
                     <div className="font-noto-sans text-center">
                         <p className="mx-4 mt-4">參考新聞模板</p>
                         <FiArrowDown className="mx-auto mt-4"/>
@@ -36,7 +36,7 @@ const Phase = () => {
                 </div>
                 <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-white hover:scale-105 duration-300">
                     <FaPython className="mx-auto mt-[-40px] text-black" size={50}/>
-                    <h2 className="font-noto-sans text-2xl text-center py-6 border-solid border-b-2 border-black">技術</h2>
+                    <h2 className="font-noto-sans text-3xl text-center py-6 border-solid border-b-2 border-black">技術</h2>
                     <div className="font-noto-sans text-center">
                         <p className="mx-4 mt-4">偵測</p>
                         <FiArrowDown className="mx-auto mt-4"/>

@@ -21,7 +21,7 @@ const About = () => {
     });
 
     return(
-        <>
+        <div name="about">
         <div className="flex justify-center space-x-6 ">
             <div className="text-red-600 font-bold flex flex-row items-center space-x-2">
                 <div className="animate-ping "><FaCircle/></div>
@@ -46,12 +46,6 @@ const About = () => {
                 在作品中，觀展者在展覽場上的移動會改變訊息的部分內容，藉由此互動來象徵人為的干預如何左右訊息的真假。
                 </p>
                 <Link to="phase" spy={true} smooth={true} horizontal={true} offset={50} duration={500} ></Link>
-                <div className="pt-5 text-red-600 flex flex-row">
-                    <button onClick={() => scrollTo('#phase')}>
-                    <BsMouse size={25}/>
-                    </button>
-                    {/* <p className="font-noto-sans">左右滑動</p> */}
-                </div>
                 
                 
             </div>
@@ -61,7 +55,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 

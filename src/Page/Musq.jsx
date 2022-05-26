@@ -6,7 +6,7 @@ import musq2 from "../Image/P.png";
 
 const Musq = () => {
     return(
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
             <ReactCompareImage leftImage={musq1} rightImage={musq2}/>
         </div>
     )

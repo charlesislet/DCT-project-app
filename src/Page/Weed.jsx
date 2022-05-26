@@ -6,8 +6,8 @@ import weed2 from "../Image/H.png";
 
 const Weed = () => {
     return(
-        <div className="w-[1000px] mx-auto">
-            <ReactCompareImage leftImage={weed1} rightImage={weed2}/>
+        <div className="container mx-auto">
+            <ReactCompareImage leftImage={weed1} rightImage={weed2} />
         </div>
     )
 }

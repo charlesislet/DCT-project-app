@@ -6,7 +6,7 @@ import sleep2 from "../Image/F.png";
 
 const Sleep = () => {
     return(
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
             <ReactCompareImage leftImage={sleep1} rightImage={sleep2}/>
         </div>
     )

@@ -6,7 +6,7 @@ import war2 from "../Image/N.png";
 
 const War = () => {
     return(
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
             <ReactCompareImage leftImage={war1} rightImage={war2}/>
         </div>
     )
