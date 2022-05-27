@@ -6,6 +6,7 @@ import About from "../components/About";
 import Phase from "../components/Phase";
 import Template from "../components/Template";
 import Vid from "../components/Vid";
+import Tech from "../components/Tech";
 
 
 function Home() {
@@ -32,8 +33,8 @@ function Home() {
       <Navbar/>
       <About />
       <Phase />
-      
       <Template />
+      <Tech/>
       <Vid />
     
 

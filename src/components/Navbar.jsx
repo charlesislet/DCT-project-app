@@ -23,20 +23,23 @@ const Navbar = () => {
             <div onClick={handleNav} className='block cursor-pointer'>
                 {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
             </div>
-            <ul className={nav ? 'cursor-pointer fixed right-0 top-24 w-[50%] h-full border-l border-white bg-red-600 ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+            <ul className={nav ? 'cursor-pointer fixed right-0 top-24 w-[50%] h-full border-l border-black bg-white ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
             <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>
-                <li className='p-4 border-b-2 border-white font-noto-sans text-white text-2xl hover:underline'>關於</li>
+                <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>關於</li>
             </Link>
             <Link activeClass="active" to="phase" spy={true} smooth={true} offset={50} duration={500}>
-                <li className='p-4 border-b-2 border-white font-noto-sans text-white text-2xl hover:underline'>製作規劃</li>
+                <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>製作規劃</li>
             </Link>
             <Link activeClass="active" to="template" spy={true} smooth={true} offset={50} duration={500}>
-                <li className='p-4 border-b-2 border-white font-noto-sans text-white text-2xl hover:underline'>新聞模板</li>
+                <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>新聞模板</li>
+            </Link>
+            <Link activeClass="active" to="tech" spy={true} smooth={true} offset={50} duration={500}>
+                <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>技術</li>
             </Link>
             <Link activeClass="active" to="vid" spy={true} smooth={true} offset={50} duration={500}>    
-                <li className='p-4 border-b-2 border-white font-noto-sans text-white text-2xl hover:underline'>成果影片</li>
+                <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>成果影片</li>
             </Link>    
-                <li className='p-4'>Contact</li>
+                
             </ul>
         </div>
     )
