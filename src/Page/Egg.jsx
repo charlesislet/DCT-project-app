@@ -1,7 +1,7 @@
 import React from "react";
 import ReactCompareImage from 'react-compare-image';
-import egg1 from "../Image/K.png";
-import egg2 from "../Image/L.png";
+import egg1 from "../Image/K.jpg";
+import egg2 from "../Image/L.jpg";
 
 
 const Egg = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactCompareImage from 'react-compare-image';
-import weed1 from "../Image/G.png";
-import weed2 from "../Image/H.png";
+import weed1 from "../Image/G.jpg";
+import weed2 from "../Image/H.jpg";
 
 
 const Weed = () => {

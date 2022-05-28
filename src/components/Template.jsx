@@ -3,13 +3,12 @@ import { Link } from 'react-router-dom'
 import tea from "../Image/A.jpg";
 import muscle from "../Image/C.jpg";
 import sleep from "../Image/E.jpg";
-import weed from "../Image/G.png";
-import stock from "../Image/I.png";
-import egg from "../Image/K.png";
+import weed from "../Image/G.jpg";
+import stock from "../Image/I.jpg";
+import egg from "../Image/K.jpg";
 import war from "../Image/M.jpg";
 import musq from "../Image/O.jpg";
 import festival from "../Image/Q.jpg";
-import Weed from "../Page/Weed";
 
 
 const Template = () => {
@@ -35,19 +34,19 @@ const Template = () => {
                         <div className="mx-auto grid md:grid-cols-3 gap-8">
                             <div className="relative">
                                 <Link to="/weed" target="">
-                                <img src={weed} width={250} className="block  rounded-lg shadow-xl"></img>
+                                <img src={weed} width={250} className="block  rounded-lg shadow-xl"/>
                                 <p className="backdrop-blur-sm absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">大麻</p>
                                 </Link>
                             </div>
                             <div className="relative">
                                 <Link to="/stock" target="">
-                                <img src={stock} width={250} className="block rounded-lg shadow-xl"></img>
+                                <img src={stock} width={250} className="block rounded-lg shadow-xl"/>
                                 <p className="backdrop-blur-sm absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">股票</p>
                                 </Link>
                             </div>
                             <div className="relative">
                                 <Link to="/egg" target="">
-                                <img src={egg} width={250} className="block rounded-lg shadow-xl"></img>
+                                <img src={egg} width={250} className="block rounded-lg shadow-xl"/>
                                 <p className="backdrop-blur-sm absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">雞蛋</p>
                                 </Link>
                             </div>
@@ -58,19 +57,19 @@ const Template = () => {
                     <div className="mx-auto grid md:grid-cols-3 gap-8">
                         <div className="relative">
                             <Link to="/tea" target="">
-                            <img src={tea} width={250} className="block rounded-lg shadow-xl"></img>
+                            <img src={tea} width={250} className="block rounded-lg shadow-xl"/>
                             <p className="backdrop-blur-sm absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">茶葉</p>
                             </Link>                        
                         </div>
                         <div className="relative">
                             <Link to="/muscle" target="">
-                            <img src={muscle} width={250} className="block rounded-lg shadow-xl"></img>
+                            <img src={muscle} width={250} className="block rounded-lg shadow-xl"/>
                             <p className="backdrop-blur-sm absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">肌力</p>
                             </Link>
                         </div>
                         <div className="relative">
                             <Link to="/sleep" target="">
-                            <img src={sleep} width={250} className="block rounded-lg shadow-xl"></img>
+                            <img src={sleep} width={250} className="block rounded-lg shadow-xl"/>
                             <p className="backdrop-blur-sm absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">睡眠</p>
                             </Link>
                         </div>
@@ -81,19 +80,19 @@ const Template = () => {
                     <div className="mx-auto grid md:grid-cols-3 gap-8">
                         <div className="relative">
                             <Link to="/war" target="">
-                            <img src={war} width={250} className="block rounded-lg shadow-xl"></img>
+                            <img src={war} width={250} className="block rounded-lg shadow-xl"/>
                             <p className="backdrop-blur-sm absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">烏俄</p>
                             </Link>
                         </div>
                         <div className="relative">
                             <Link to="/musq" target="">
-                            <img src={musq} width={250} className="block rounded-lg shadow-xl"></img>
+                            <img src={musq} width={250} className="block rounded-lg shadow-xl"/>
                             <p className="backdrop-blur-sm absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">蚊子</p>
                             </Link>
                         </div>
                         <div className="relative">
                             <Link to="/festival" target="">
-                            <img src={festival} width={250} className="block rounded-lg shadow-xl"></img>
+                            <img src={festival} width={250} className="block rounded-lg shadow-xl"/>
                             <p className="backdrop-blur-sm absolute inset-0 z-10 flex justify-center items-center opacity-0 hover:opacity-100 text-2xl text-red-600 font-noto-sans">燈會</p>
                             </Link>
                         </div>
