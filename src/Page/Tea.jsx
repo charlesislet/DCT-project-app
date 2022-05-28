@@ -1,7 +1,7 @@
 import React from "react";
 import ReactCompareImage from 'react-compare-image';
-import tea1 from "../Image/A.png";
-import tea2 from "../Image/B.png";
+import tea1 from "../Image/A.jpg";
+import tea2 from "../Image/B.jpg";
 
 
 const Tea = () => {

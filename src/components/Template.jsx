@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import tea from "../Image/A.png";
-import muscle from "../Image/C.png";
-import sleep from "../Image/E.png";
+import tea from "../Image/A.jpg";
+import muscle from "../Image/C.jpg";
+import sleep from "../Image/E.jpg";
 import weed from "../Image/G.png";
 import stock from "../Image/I.png";
 import egg from "../Image/K.png";
-import war from "../Image/M.png";
-import musq from "../Image/O.png";
-import festival from "../Image/Q.png";
+import war from "../Image/M.jpg";
+import musq from "../Image/O.jpg";
+import festival from "../Image/Q.jpg";
 import Weed from "../Page/Weed";
 
 

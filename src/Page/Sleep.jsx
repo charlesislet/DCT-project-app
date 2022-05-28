@@ -1,7 +1,7 @@
 import React from "react";
 import ReactCompareImage from 'react-compare-image';
-import sleep1 from "../Image/E.png";
-import sleep2 from "../Image/F.png";
+import sleep1 from "../Image/E.jpg";
+import sleep2 from "../Image/F.jpg";
 
 
 const Sleep = () => {

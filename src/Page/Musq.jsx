@@ -1,7 +1,7 @@
 import React from "react";
 import ReactCompareImage from 'react-compare-image';
-import musq1 from "../Image/O.png";
-import musq2 from "../Image/P.png";
+import musq1 from "../Image/O.jpg";
+import musq2 from "../Image/P.jpg";
 
 
 const Musq = () => {

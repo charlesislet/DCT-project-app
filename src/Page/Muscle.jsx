@@ -1,7 +1,7 @@
 import React from "react";
 import ReactCompareImage from 'react-compare-image';
-import muscle1 from "../Image/C.png";
-import muscle2 from "../Image/D.png";
+import muscle1 from "../Image/C.jpg";
+import muscle2 from "../Image/D.jpg";
 
 
 const Muscle = () => {
