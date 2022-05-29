@@ -36,9 +36,15 @@ const Navbar = () => {
             <Link activeClass="active" to="tech" spy={true} smooth={true} offset={50} duration={500}>
                 <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>技術</li>
             </Link>
+            <Link activeClass="active" to="roomdeploy" spy={true} smooth={true} offset={50} duration={500}>
+                <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>展場配置</li>
+            </Link>
             <Link activeClass="active" to="vid" spy={true} smooth={true} offset={50} duration={500}>    
                 <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>成果影片</li>
-            </Link>    
+            </Link>
+            <Link activeClass="active" to="footer" spy={true} smooth={true} offset={50} duration={500}>    
+                <li className='p-4 border-b-2 border-black font-noto-sans text-red-600 text-2xl hover:underline decoration-black'>團隊成員</li>
+            </Link>     
                 
             </ul>
         </div>

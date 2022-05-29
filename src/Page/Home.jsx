@@ -7,11 +7,13 @@ import Phase from "../components/Phase";
 import Template from "../components/Template";
 import Vid from "../components/Vid";
 import Tech from "../components/Tech";
+import Roomdeploy from "../components/Roomdeploy";
+import Footer from "../components/footer";
 
 
 function Home() {
 
-  const child = { width: `1280px`, height: `100%` }
+  // const child = { width: `1280px`, height: `100%` }
 
   return (
     <div className="Home">
@@ -35,7 +37,9 @@ function Home() {
       <Phase />
       <Template />
       <Tech/>
+      <Roomdeploy/>
       <Vid />
+      <Footer/>
     
 
     </div>
