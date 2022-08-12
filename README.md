@@ -1,3 +1,8 @@
+# 戌時新聞 Real and Unreal
+This is a webpage introducing the 110th semester NCCU DCT group No.5 graduation exhibition \
+Link : https://dct-project-app.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
